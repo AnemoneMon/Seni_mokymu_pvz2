@@ -82,20 +82,38 @@
 # else:
 #     print('nei viena salyga netinka')
 
-print('uzduotis 6')
+# print('uzduotis 6')
+# print()
+# print('Iveskite egzamino pazymi (nuo 0 iki 10)')
+# paz = int(input())
+# if paz < 0 or paz > 10:
+#     print('Klaida: iveskite pazymi nuo 0 iki 10')
+# else:
+#     if paz == 10:
+#         print('Puiku')
+#     elif paz >= 9:
+#         print('Labai gerai')
+#     elif paz >= 7:
+#         print('Gerai')
+#     elif paz >=5:
+#         print('Patenkinamai')
+#     else:
+#         print('Egzaminas neislaikyas')
+
+# print('uzduotis 7')
+# print()
+# print('Iveskite skaiciu')
+# sk = int(input())
+# if sk % 2 == 0:
+#     print('skaicius yra lyginis')
+# else:
+#     print('skaicius yra nelyginis')
+
+print('uzduotis 8')
 print()
-print('Iveskite egzamino pazymi (nuo 0 iki 10)')
-paz = int(input())
-if paz < 0 or paz > 10:
-    print('Klaida: iveskite pazymi nuo 0 iki 10')
+print('Iveskite skaiciu')
+sk = int(input())
+if sk % 7 == 0:
+    print('skaicius dalinasi is 7')
 else:
-    if paz == 10:
-        print('Puiku')
-    elif paz >= 9:
-        print('Labai gerai')
-    elif paz >= 7:
-        print('Gerai')
-    elif paz >=5:
-        print('Patenkinamai')
-    else:
-        print('Egzaminas neislaikyas')
+    print('skaicius nesidalina is 7')
